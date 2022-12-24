@@ -1,0 +1,219 @@
+.block-1{
+    height: 786px;
+    background: url(../img/block1.jpg) center 0 no-repeat;
+    padding: 580px 40px 0;
+}
+.block-1 .sale{
+    position: absolute;
+    width: 170px;
+    top: 140px;
+    right: 0;
+    font: 27px 'MuseoSansCyrl-900';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.block-1 .sale span{
+    font-size: 54px;
+    line-height: 1.1em;
+}
+.price{
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+}
+.price>div{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 80px;
+    padding: 10px 5px;
+    font: 18px 'MuseoSansCyrl-500';
+    line-height: 1em;
+    white-space: nowrap;
+}
+.price .old{
+    padding-right: 30px;
+    text-align: right;
+    color: #fff;
+    background: #6e6e4a;   
+}
+.price .old>s{
+    font: 32px 'MuseoSansCyrl-300';
+    line-height: 1.4em;
+}
+.price .new{
+    padding-left: 30px;
+    color: #111;
+    background: #fff;
+}
+.price .new>span{
+    color: #ec640e;
+    font: 36px 'MuseoSansCyrl-900';  
+}
+.block-1 .button-m{
+    margin-top: 15px;
+}
+.block-2{
+    padding: 0;
+}
+.block-3{
+    padding: 20px 0 0;
+}
+.block-3 ul li {
+    position: relative;
+    padding: 20px 30px 20px 150px;
+    border-bottom: 1px dashed rgba(110,110,74,0.6);
+}
+.block-3 ul li:nth-child(2n){
+    background: #fff;
+}
+.block-3 ul li:last-child{
+    border: 0;
+    padding-bottom: 40px;
+}
+.block-3 ul li:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 46px;
+    left: 40px;
+    top: 12px;
+    background: url('../img/icon.png') no-repeat;
+}
+.block-3 ul li:nth-child(1):before {background-position: 0px 10px;}
+.block-3 ul li:nth-child(2):before {background-position: 0px -39px;}
+.block-3 ul li:nth-child(3):before {background-position: 0px -83px;}
+.block-3 ul li:nth-child(4):before {background-position: 0px -127px;}
+.block-3 ul li:nth-child(5):before {background-position: 0px -182px;}
+.block-3 ul li:nth-child(6):before {background-position: 0px -236px;}
+
+.block4{
+    background: url('../img/block4.jpg') center 0 no-repeat;
+}
+.block4 .video{
+    width: 440px;
+    margin: 30px auto 40px;
+    border: 10px solid #f1f1f1;
+}
+.block4 .video>iframe{
+    position: relative;
+    display: block;  
+}
+.block5 h2{
+    color: #111;
+    font-size: 30px;
+}
+.block5 ul li{
+    position: relative;
+    margin-top: 50px;
+    padding: 0 30px 20px;
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    text-align: center;
+}
+.block5 ul li:before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('../img/icon2.png') no-repeat;
+    margin: -17px auto auto;
+}
+.block5 ul li:nth-child(1):before{background-position: 0px 0px;}
+.block5 ul li:nth-child(2):before{background-position: 0px -105px;}
+.block5 ul li:nth-child(3):before{background-position: 0px -210px;}
+.block6{
+    background: #fff;
+}
+.block6 h2{
+    color: #111;
+}
+.block6 h2 b{
+    font-size: 28px;
+}
+.block6 img{
+  margin: 30px auto;
+}
+.block6 p{
+    position: relative;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.block6 p:last-child{
+    padding: 0;
+}
+.block7{
+    background: url('../img/block7.jpg') center 0 no-repeat;
+}
+.block7 p{
+    position: relative;
+    padding: 9px 0 5px 0;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+.block7 .slide-vk{
+    width: 300px;
+    margin: 20px auto 0;
+}
+.block8 .reviews{
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+}
+.block8 .reviews>img{
+    position: relative;
+    display: block;
+}
+.block8 p{
+    position: relative;
+    padding: 15px 0 0;
+    text-align: justify;
+}
+.block9{
+    padding: 0;
+}
+.block9 h2{
+    padding: 25px 0 20px;
+    background: #6e6e4a;
+}
+.block9 p.sale{
+    padding: 15px 0 12px;
+    font-size: 34px;
+    line-height: 1em;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ec640e;
+}
+.block9 .container{
+    height: 504px;
+    padding: 400px 40px 0;
+    background: url('../img/block9.jpg') center 0 no-repeat;
+}
+.timer{
+    background: #1d1a10;
+    padding: 15px 40px 50px;
+}
+.timer p{
+  padding: 0 0 10px;
+  color: #fff;
+}
+.m1-form{
+    background: #3c4029;
+    padding: 30px 40px;
+}
+.footer{
+    padding: 15px 0;
+    line-height: 1em;
+}
+.footer a{
+    font-size: 13px;
+    color: #234161;
+}
